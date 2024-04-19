@@ -1,0 +1,32 @@
+$primary: #b0f5c1;  
+$secondary: #8858a8; 
+
+.item-card {
+  background-color: $primary;
+  width: 18rem;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+  .item-content {
+    margin-bottom: 20px;
+  }
+
+  .item-title {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .item-subtitle {
+    color: #666;
+    font-style: italic;
+  }
+
+  .item-button {
+    background-color: $secondary;
+    color: #ffffff; // Asegurar texto blanco para contraste
+    &:hover {
+      background-color: darken($secondary, 10%);
+    }
+  }
+}

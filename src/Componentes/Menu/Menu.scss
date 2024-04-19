@@ -1,0 +1,14 @@
+.bg-body-tertiary {
+    background-color: #343a40;
+}
+
+.nav-link {
+    &:hover {
+        background-color: #a8d8ff;
+        border-radius: 5px;
+    }
+}
+
+.nabar-toggler{
+    border-color: #ffffff;
+}
